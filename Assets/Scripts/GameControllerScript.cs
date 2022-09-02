@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class gamemanager : MonoBehaviour
+public class GameControllerScript : MonoBehaviour
 {
     bool cheatSheetIsOpen = false;
     bool CMDIsOpen = false;
@@ -79,7 +79,7 @@ public class gamemanager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            //Check if collides with tag: cheatsheetfile
+            //Check if collides with tag: cmdicon
             if (hit.collider.tag == "cmdicon")
             {
                 if (CMDIsOpen == false)
@@ -95,7 +95,7 @@ public class gamemanager : MonoBehaviour
                 Debug.Log(CMDIsOpen);
             }
 
-            //Check if collides with tag: cheatsheetx
+            //Check if collides with tag: cmdx
             if (hit.collider.tag == "cmdx")
             {
                 if (CMDIsOpen == false)
