@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/MainGame.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/BlueScreen.unity
+    guid: f7868b960e860194391f652ba54565a7
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: 9eb0a62a345480c45b1786387d9a09b4
+  - enabled: 1
+    path: Assets/Scenes/AltEndScreen.unity
+    guid: 0684ee8d44183174f9dd5c40ad17c491
   m_configObjects: {}
