@@ -11,6 +11,7 @@ TagManager:
   - cmd
   - cmdx
   - helloworldicon
+  - helloworldx
   layers:
   - Default
   - TransparentFX
